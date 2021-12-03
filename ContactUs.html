@@ -1,0 +1,99 @@
+<html>
+<head>
+<script>
+
+      		function confirmAction() {
+        		let confirmAction = confirm("Are you sure?");
+        		if (confirmAction) {
+          		alert("Action successfully executed");
+        		} else {
+          		alert("Action canceled");
+        		}
+      		}
+    		</script>
+
+		<style>
+			div.a {
+			font-size:70%;
+			text-align: left;
+			}
+			div.b {
+			font-size:130%;
+			}
+			div.c {
+			font-size:200%;
+			}
+			div.d {
+			font-size:250%;
+			}
+			div.e {
+			font-size:300%;
+			}
+			
+			hr.new1 {
+			border-top:1px solid red;
+			}
+		</style>
+		<style>
+			body {
+  			font-family: Arial;
+  			margin: 0;
+			}
+
+			.header {
+  			padding: 60px;
+  			text-align: center;
+  			background: #1abc9c;
+  			color: white;
+  			font-size: 30px;
+			}
+
+			.content {padding:20px;}
+		</style>
+		<style>
+			.footer {
+   			font-size:130%;
+   			left: 0;
+   			bottom: 0;
+   			width: 100%;
+   			background-color: 4236A8;
+  			color: 70DE19;
+   			text-align: left;
+			}
+		</style>
+<title> Contact us </title>
+</head>
+<body style="background-color:powderblue;">
+<div class="header">
+		<div class ="c"> <center> <b> in the Name of the God </center></b> </div><br>
+		<ul>
+		<li> <div class="a"> <a href="Introduction.html">Intruduction </a> </div> </li>
+		<li> <div class="a"> <a href="Skills.html">Skills </a> </div> </li>
+		<li> <div class="a"> <a href="Achievements.html">Achievements </a> </div> </li>
+		<li> <div class="a"> <a href="ContactUs.html">Contact us </a> </div> </li>
+		</ul>
+		</div>
+<br>
+<div class="d"><center> <b> Contact us </div> </b> </center> <br>
+<div class="b">
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value=""><br><br>
+  <label for="Email address">Email address:</label><br>
+  <input type="text" id="Email address" name="Email address" value=""><br><br>
+  <label for="subject">Subject:</label><br>
+  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+  <button onclick="confirmAction()">Submit</button><br>
+<pre> </pre>
+</form>
+</div>
+
+<div class="footer">
+<pre>
+Email  		: Poria.gm@gmail.com
+GitHub 		: PoriaKH
+StackOverflow	: MerCy
+</div>
+</pre>
+</body>
+</html>
